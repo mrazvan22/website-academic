@@ -50,7 +50,7 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "razvan@csail.mit.edu"
+email = "razvan at csail.mit.edu"
 phone = ""
 address = "MIT CSAIL 32-D472, 32 Vassar Street, Cambridge, MA"
 

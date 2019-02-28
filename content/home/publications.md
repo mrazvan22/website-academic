@@ -18,7 +18,7 @@ count = 10
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-view = 2
+view = 1
 
 # Filter by publication type.
 # -1: Any
@@ -35,6 +35,3 @@ publication_type = "-1"
 exclude_featured = false
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
