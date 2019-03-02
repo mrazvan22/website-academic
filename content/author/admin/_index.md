@@ -82,6 +82,10 @@ user_groups = ["Researchers"]
 
 +++
 
-I am a postdoctoral researcher at MIT, working with Polina Golland to develop algorithms for quantifying pathologies in the human brain. More precisely, I focus on automatic extraction and quantification of lesions and white matter hyperintensities, which would enable researchers to perform quantitative studies on large populations. This would further enable us to understand the mechanisms underlying these pathologies and to develop effective treatments. 
+Email: razvan at csail.mit.edu
 
-I also have a keen interest in machine learning and general computational intelligence, in how can we make computers perform intelligent tasks. As an AI enthusiast, I believe computers and robots will one day be able to perform most of the tasks we humans do. 
+I am a postdoctoral researcher at MIT, working with Polina Golland to develop machine learning algorithms for quantifying pathologies in the human brain. More precisely, I focus on automatic extraction and quantification of lesions and white matter hyperintensities, which would enable researchers to perform quantitative studies on large populations. This would further enable us to understand the mechanisms underlying these pathologies and to develop effective treatments. 
+
+I also have a keen interest in general machine learning and computational intelligence, in order to make computers perform intelligent tasks. 
+
+You can see a complete list of publications on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=AzfoycUAAAAJ) page. 
