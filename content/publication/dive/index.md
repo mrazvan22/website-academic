@@ -53,7 +53,7 @@ projects = ['disease-progression']
 slides = ""
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1901.03553.pdf"
+url_pdf = "dive.pdf"
 url_preprint = "https://arxiv.org/abs/1901.03553"
 url_code = "https://github.com/mrazvan22/dive"
 url_dataset = ""

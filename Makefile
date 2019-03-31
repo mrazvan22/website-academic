@@ -12,3 +12,6 @@ copyToCSAIL:
 
 addPub:
 	hugo new --kind publication publication/dkt
+
+addProj:
+	hugo new  --kind project project/disease-progression

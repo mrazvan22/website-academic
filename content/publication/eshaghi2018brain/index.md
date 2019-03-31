@@ -53,7 +53,7 @@ projects = ['disease-progression']
 slides = ""
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://www.ncbi.nlm.nih.gov/pubmed/29741648"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

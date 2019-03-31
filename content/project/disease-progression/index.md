@@ -41,7 +41,7 @@ url_poster = ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Left"
+  focal_point = "Center"
 +++
 
 Alzheimer’s disease (AD), and dementia in general, is a key challenge for 21st-century healthcare. There are no available treatments that can cure or even slow the progression of AD – all clinical trials into putative treatments have failed to prove a  disease-modifying effect. One key reason for these failures is the difficulty in identifying a group of patients at early stages of the disease, where treatments are most likely to be effective. For early identification of subjects at risk of AD, one can use biological markers (i.e. biomarkers) for estimating a disease signature, which can then be used for predicting the future evolution of these subjects. More precisely, the signature will describe the evolution of these biomarkers in the patient population. Estimating such trajectories is challenging, as we don't know the disease stages of subjects.  
