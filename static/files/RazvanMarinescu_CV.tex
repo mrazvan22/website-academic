@@ -1,0 +1,227 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+%\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[
+    top    = 1.4cm,
+    bottom = 1.4cm,
+    left   = 1.4cm,
+    right  = 1.4cm]{geometry}
+
+%\usepackage{fullpage} % Margin formatting of the A4 page, an alternative to
+%layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment:
+%\addtolength{\voffset}{-1.3cm}
+%\addtolength{\hoffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} %
+% Set link colors throughout the document
+
+%\usepackage{titlesec} % Used to customize the \section command
+%\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] 
+% Text formatting of sections
+
+%\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%\font\fb=''[cmr10]'' 
+% Change the font of the \LaTeX command under the skillssection
+
+%-------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%-------------------------------------------------------------------
+
+% Your name
+\par{\centering{\huge Razvan Valentin Marinescu}\bigskip\par} 
+
+
+%-------------------------------------------------------------------------------
+
+%	EDUCATION
+%-------------------------------------------------------------------------------
+
+\section*{Education}
+
+\begin{tabular}{r|p{15.7cm}}
+2014 & \large\textbf{4-Year CDT PhD in Medical Imaging, University College London}\\
+- 2018 & PhD project: "Disease Progression Modelling and Evaluation in Alzheimer's Disease and Posterior Cortical Atrophy"\\
+& \small Supervisors: Prof. Daniel Alexander, Dr. Sebastian Crutch, Dr. Neil Oxtoby\\
+& I developed statistical and computational models of neurodegenerative disease progression. Applied them to different types of dementia such as typical Alzheimer's disease and Posterior Cortical Atrophy and in order to perform probabilistic disease staging and forecast the future evolution of subjects. I also organised the international TADPOLE Competition, which aims to identify algorithms and features that best predict the evolution of subjects at-risk of Alzheimer's disease.\\\\
+
+& Experience with: Bayesian Statistics, Machine Learning, Neuroimaging, Disease Progression Modelling.\\
+
+\\
+2010 & \large\textbf{4-Year MEng in Computer Science, Imperial College London}\\
+- 2014 & \emph{First Class Honours} (top 10\% of class in final year) \\
+& Master thesis: ``On a new metric to compare internal structures in biological
+networks''\\
+& \small Supervisor: Dr. Natasa Przulj\\
+& I developed a novel graph signature that was capturing the network structure around a particular node. I applied the signature to networks representing world-trade, protein-protein interactions and matabolic pathways and showed that it correlates with different network properties, such as oil price (trade network), key metabolic pathways (metabolic network) and key protein functions (protein network). \\
+& \\
+& \textbf{Subjects studied} include: Machine Learning, Statistics, Bioinformatics, Computational Neuroscience, Programming, Simulations \& Modelling, Complex Systems, Operating Systems.\\
+\end{tabular}
+
+
+%-------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%-------------------------------------------------------------------------------
+
+\section*{Work Experience}
+
+\begin{tabular}{r|p{15cm}}
+Jan 2016 & \large\textbf{Teaching Assistant in Computational Modelling, UCL} \\
+- Apr 2018 & \emph{Taught computational modelling, bayesian statistics and numerical optimisation to Master students. Marked the students' coursework.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+
+Sep 2014 & \large\textbf{Student Residence Advisor, University College London} \\
+- Aug 2018 & \emph{Provided pastoral support to students and emergency support.}\\ 
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+
+Oct 2012 & \large\textbf{Teaching Assistant in Programming, Imperial College London} \\
+- Dec 2013 & \emph{Taught Haskell, Java and C to undergraduate students. Weekly marking of students' coursework.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+Mar - Sep & \large\textbf{Industrial Placement at J.P. Morgan Chase \& Co, Emerging
+Markets}\\
+2013 & \emph{Assisted the retirement of a legacy system that was processing end-of-day market risk.}.\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+
+Jul - Sep & \large\textbf{Summer Internship at Goldman Sachs, Equities Technology}\\
+2012 & \emph{Built programmes that automatically re-factored the Java source-code of a trading system. Learned about financial instruments and live market data.}.\\
+\multicolumn{2}{c}{} \\
+
+
+\multicolumn{2}{c}{} \\
+\end{tabular}
+\vspace{-3em}
+
+%-------------------------------------------------------------------------------
+%	Awards
+%-------------------------------------------------------------------------------
+
+\section*{Awards}
+
+\begin{tabular}{r|p{15.7cm}}
+2017 & Runner up (jointly) for the \textbf{Francois Erbsmann Prize} at the IPMI conference.\\
+2015-17 & Travel and registration fellowships for several conferences: IPMI, AAIC and Human Brain Project.\\
+2013 & DAAD Scholarship for doing a German Language course in Aachen, Germany over the summer.\\
+%& \\
+2011 & Prize for the best undergraduate project in Artificial Intelligence, Imperial College London\\
+%& \\
+2010 & Sponsored visit to Brussels, at the \textbf{NATO Headquarters}, for the
+achievements in international projects and Olympiads.\\
+%& \\
+2009 & Grand Prize at the International Space Settlement Design Competition offered by \textbf{NASA Johnsons Space Center}.\\
+%& \\
+2008 & Diploma of Excellency awarded by the \textbf{Government of Romania} for "impressive problem-solving skills".\\
+%& \\
+2007 & Bronze Medal ar the 6th International Computer Project Competition
+"Informatix".\\
+%& \\
+& Silver Medal at the \emph{National Mathematics Olympiad} in Romania.
+\end{tabular}
+
+%-------------------------------------------------------------------------------
+%	skills and competences
+%-------------------------------------------------------------------------------
+
+%\section*{Skills and competences}
+%
+%\begin{tabular}{rl}
+%\textbf{Programming:} & C/C++, Java, x86 Assembly, Python, Perl, SQL, Haskell,
+%Prolog, {\LaTeX}\\
+%& \\
+%\textbf{Computer Systems:} & Ubuntu, Windows, Version control systems(Git)\\
+%& \\
+%\textbf{Languages:} & Romanian (native), German (fluent), French (basic), Spanish (basic)
+%\end{tabular}
+%
+%%-------------------------------------------------------------------------------
+%%	INTERESTS AND ACTIVITIES
+%%-------------------------------------------------------------------------------
+%
+%\section*{Interests and Activities}
+%\begin{itemize}
+%
+% \item As a \textbf{Year Representative} in the Department of Computing, I developed leadership
+%and speaking skills by putting forward the academic concerns of students in
+%council meetings.\\
+%  
+%  \item \textbf{Treasurer} in the Romanian Society, managing the finances and
+%organising various events such as bar and cinema nights, football games and food
+%nights. \\
+%
+%  \item \textbf{First Aider} in St John's Ambulance, offering first aid on various 
+%  events such as the London Summer Ball, Wimbledon Championships and Arsenal games.\\ 
+%
+%  \item Swimming, playing guitar and ice skating with friends in my free time. \\
+% 
+%  \item Wikipedia Editing: Wrote in several scientific articles, such as Gesture Recognition, Affective Computing and Hopfield Network. \\
+%  
+%\end{itemize}
+
+\section*{First author publications}
+\begin{itemize}
+ \item A Vertex Clustering Model for Disease Progression: Application to Cortical Thickness Images, \textbf{R. V. Marinescu}, A. Eshaghi, M. Lorenzi, A. L. Young, N. P. Oxtoby, S. Garbarino, T. J. Shakespeare, S. J. Crutch and D. C. Alexander, IPMI, 2017
+ \item TADPOLE Challenge: Prediction of Longitudinal Evolution in Alzheimer's Disease, \textbf{R. V. Marinescu}, N. P. Oxtoby, A. L. Young, E. E. Bron, A. W. Toga, M. W. Weiner, F. Barkhof, N. C. Fox, S. Klein, D. C. Alexander and the EuroPOND Consortium, arXiv, 2018 
+ \item A data-driven comparison of the progression of brain atrophy in Posterior Cortical Atrophy and Alzheimer's disease, \textbf{R. V. Marinescu}, A. L. Young, Neil P. Oxtoby, N. C. Firth, M. Lorenzi, A. Eshaghi, V. Wottschel, M. J. Cardoso, M. Modat, K. X. X. Yong, S. Primativo, N. C. Fox, M. Lehmann, T. J. Shakespeare, S. J. Crutch, D. C. Alexander, AAIC poster, 2016.
+ \item Analysis of the heterogeneity of Posterior Cortical Atrophy: Data-driven Model Predicts Distinct Atrophy Patterns for three different Cognitive Subgroups, \textbf{R. V. Marinescu}, S. Primativo, A. L. Young, N. P. Oxtoby, N. C. Firth, A. Eshaghi, S. Garbarino, J. M. Cardoso, K. Yong, N. C. Fox, M. Lehmann, T. J. Shakespeare, S. J. Crutch, D. C. Alexander, AAIC poster, 2017 
+\end{itemize}
+
+\section*{Joint publications}
+\begin{itemize}
+\item Multiple orderings of events in disease progression, A.L. Young, N . P. Oxtoby, J. Huang, \textbf{R. V. Marinescu}, P. Daga, D. M. Cash, N. C. Fox, S. Ourselin, J. M. Schott, D. C. Alexander, Alzheimers Disease Neuroimaging Initiative, IPMI, 2015
+\item Uncovering the heterogeneity and temporal complexity of neurodegenerative diseases with Subtype and Stage Inference, A.L. Young, \textbf{R. V. Marinescu}, N. P. Oxtoby, M. Bocchetta, K. Yong, N. Firth, D. Cash, et al, Nature Communications, 2018
+\item Progression of regional grey matter atrophy in multiple sclerosis, A. Eshaghi, \textbf{R. V. Marinescu}, A. L. Young, N. C. Firth, D. Prados, M. Jorge Cardoso, C. Tur, F. De Angelis et al., Brain, 2018
+\item An image‐-based model of brain volume biomarker changes in Huntington's disease, P. A. Wijeratne, A. L. Young, N. P. Oxtoby, \textbf{R. V. Marinescu}, N. C. Firth, E. B. Johnson, A. Mohan, C. Sampaio, R. I Scahill, S. J. Tabrizi, D. C. Alexander, Annals of clinical and translational neurology, 2018
+\end{itemize}
+
+
+%-------------------------------------------------------------------------------
+
+\end{document}
