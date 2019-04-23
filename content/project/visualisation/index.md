@@ -8,8 +8,7 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = "I'm also interested in ways to visualise pathology on the human brain, and in order organs as well. To this end, I developed BrainPainter, a software to generate images brain structures, colored according to any user-defined input.
-"
+summary = "BrainPainter is a software that generated visually appealing images of brain structures."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
