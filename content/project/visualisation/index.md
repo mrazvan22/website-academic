@@ -8,7 +8,7 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = "BrainPainter is a software that generated visually appealing images of brain structures."
+summary = "BrainPainter is a software that generates visually appealing images of brain structures."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
