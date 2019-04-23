@@ -1,6 +1,6 @@
 +++
 title = "Visualisation of Brain Pathology (BrainPainter)"
-date = 2019-04-23T09:37:04-04:00
+date = 2018-10-23T09:37:04-04:00
 draft = false
 
 # Tags: can be used for filtering projects.
