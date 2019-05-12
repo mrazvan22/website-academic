@@ -3,7 +3,7 @@ title = "Longitudinal neuroanatomical and cognitive progression of posterior cor
 date = 2019-02-27T21:45:27-05:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Nicholas C. Firth*", "Silvia Primativo*", "Razvan V. Marinescu*", "Timothy J. Shakespeare", "Aida Suarez-Gonzalez","Manja Lehmann","Amelia Carton","Dilek Ocal","Ivanna Pavisic","Ross W. Paterson","Catherine F. Slattery","Alexander J.M. Foulkes","Basil H. Ridha","Eulogio Gil-Néciga","Neil P. Oxtoby","Alexandra L. Young","Marc Modat","M. Jorge Cardoso","Sebastien Ourselin","Natalie S. Ryan","Bruce L. Miller","Gil D. Rabinovici","Elizabeth K. Warrington","Martin N. Rossor","Nick C. Fox","Jason D. Warren","Daniel C. Alexander","Jonathan M. Schott","Keir X. X. Yong^", "Sebastian J. Crutch^"]
+authors = ["Nicholas C. Firth*", "Silvia Primativo*", "Razvan V. Marinescu*", "Timothy J. Shakespeare", "Aida Suarez-Gonzalez","...","Elizabeth K. Warrington","Martin N. Rossor","Nick C. Fox","Jason D. Warren","Daniel C. Alexander","Jonathan M. Schott","Keir X. X. Yong^", "Sebastian J. Crutch^"]
 
 # Publication type.
 # Legend:
