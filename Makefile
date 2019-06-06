@@ -12,7 +12,7 @@ copyToCSAIL:
 	hugo; scp -r public/* razvan@login.csail.mit.edu:/afs/csail.mit.edu/u/r/razvan/public_html
 
 copyToCSAILFromSesame:
-	hugo; cp -r public/* /afs/csail.mit.edu/u/r/razvan/public_html
+	hugo; sudo cp -r public/* /afs/csail.mit.edu/u/r/razvan/public_html
 
 syncPdfs:
 	cp ../presentations/overview/pres.pdf content/talk/martinos2019
