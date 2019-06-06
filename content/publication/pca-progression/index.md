@@ -76,4 +76,6 @@ url_source = ""
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
+  
+  pic_width = 1050
 +++

@@ -63,6 +63,9 @@ url_video = ""
 url_poster = ""
 url_source = ""
 
+
+
+
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # links = [{name = "Custom Link", url = "http://example.org"}]
@@ -79,6 +82,8 @@ url_source = ""
 
   # Show image only in page previews?
   preview_only = true
+  
+  pic_width = 1050
 +++
 
 {{< figure src="featured.png" title="Diagram of the proposed DIVE model. DIVE assumes that biomarkers of pathology (e.g. cortical thinning) can be measured at many vertices (i.e. locations) on the cortical surface (A), where each vertex has a distinct trajectory of change during disease progression (B). The model thus assigns to every cortical vertex one of a small set of temporal trajectories describing the change in some image-based measurement (e.g. cortical thickness, amyloid PET, DTI fractional anisotropy measures) from beginning to end of the disease progression. The estimation process simultaneously estimates the set of clusters, the trajectory defining each cluster, and the position of each subject along the trajectories, which are defined on a common time line. The process iterates assignment of each vertex to clusters (red, green and blue in this diagram) (C), estimation of the trajectory in each cluster (D) and estimation of the disease progression score (location along trajectory) for each subject (E), all within an expectation-maximisation framework, until convergence. " >}}

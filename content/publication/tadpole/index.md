@@ -79,4 +79,6 @@ url_source = ""
 
   # Show image only in page previews?
   preview_only = true
+  
+  pic_width = 2600
 +++

@@ -27,6 +27,13 @@
   {{ $summary = $item.Content }}
 {{ end }}
 
+{{/* Get pic width. */}}
+{{ $pic_width := 718 }}
+{{ if $item.Params.pic_width }}
+  {{ $pic_width = $item.Params.pic_width }}
+{{ end }}
+
+
 <div class="card-simple" itemscope itemtype="http://schema.org/{{$microdata_type}}">
 
   <h3 class="article-title mb-1 mt-3" itemprop="name">
@@ -63,7 +70,8 @@
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
-  {{ $image := .Fill (printf "918x517 q90 %s" $anchor) }}
+  {{ $pic_width := $item.Params.image.pic_width | default 718 }}
+  {{ $image := .Fill (printf "%dx517 q90 %s" $pic_width $anchor) }}
   <a href="{{ $item.RelPermalink }}">
       <img src="{{ $image.RelPermalink }}" class="article-banner" itemprop="image" alt="">
   </a>
