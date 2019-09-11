@@ -24,8 +24,9 @@ email = ""
 # List (academic) interests or hobbies
 interests = [
   "Machine Learning",
-  "Applications of Computer Science to Medicine",
-  "Computational Intelligence"
+  "Bayesian inference",
+  "Applications of Machine Learning to Medicine",
+  "Computational Intelligence",
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -58,10 +59,10 @@ user_groups = ["Researchers"]
   icon_pack = "fas"
   link = "mailto:razvan at csail.mit.edu"  # For a direct email link, use "mailto:test@example.org".
 
-#[[social]]
-#  icon = "twitter"
-#  icon_pack = "fab"
-#  link = "https://twitter.com/GeorgeCushen"
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/RazMarinescu"
 
 [[social]]
   icon = "google-scholar"

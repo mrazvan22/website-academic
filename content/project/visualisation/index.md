@@ -19,7 +19,7 @@ summary = "BrainPainter is a software that generates visually appealing images o
 slides = ""
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/mrazvan22/brain-coloring"
+external_link = "https://brainpainter.csail.mit.edu/"
 
 # Links (optional).
 url_pdf = ""

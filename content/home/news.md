@@ -33,6 +33,11 @@ weight = 10
   
 +++
 
+* **September 2019**: Three papers accepted at MICCAI 2019!   
+    * [TADPOLE](https://tadpole.grand-challenge.org/) (oral at PRIME workshop): preliminary results of Alzheimer's prediction challenge
+    * [BrainPainter](https://arxiv.org/abs/1905.08627) (oral at MBIA workshop): a software to generate brain images useful for neuroimaging studies, by e.g. highlighting specific regions according to user input.
+    * [Disease Knowledge Transfer](https://arxiv.org/abs/1901.03517) (poster at main conference): novel method for transferring knowledge across neurodegenerative diseases
+* **August 2019**: BrainPainter now available straight from the browser: https://brainpainter.csail.mit.edu/
 * **9-21 June 2019**: I will be attending the CVPR and ICML conferences in Long Beach, California. If anyone is around, get in touch!
 * **June 2019**: <span style="color:red">Tadpole Challenge Final Results</span> will be announced on Friday 14th June 14:00 BST via YouTube: https://youtu.be/7IFC6zVA-ZE
 * **May 2019**: Paper describing the [brain visualisation software (BrainPainter)](https://arxiv.org/abs/1905.08627) uploaded on arXiv.
