@@ -3,7 +3,7 @@ title = "TADPOLE Challenge: Accurate Alzheimer's disease prediction through crow
 date = 2019-09-10T18:38:06-04:00  # Schedule page publish date.
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Razvan V. Marinescu"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -40,7 +40,7 @@ tags = []
 slides = ""
 
 # Optional filename of your slides within your talk folder or a URL.
-url_slides = ""
+url_slides = "tadpole_pres.pdf"
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.

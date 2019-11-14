@@ -33,7 +33,7 @@ weight = 10
   
 +++
 
-* **September 2019**: Three papers accepted at MICCAI 2019!   
+* **September 2019**: Three of my papers were accepted at MICCAI 2019!   
     * [TADPOLE](https://tadpole.grand-challenge.org/) (oral at PRIME workshop): preliminary results of Alzheimer's prediction challenge
     * [BrainPainter](https://arxiv.org/abs/1905.08627) (oral at MBIA workshop): a software to generate brain images useful for neuroimaging studies, by e.g. highlighting specific regions according to user input.
     * [Disease Knowledge Transfer](https://arxiv.org/abs/1901.03517) (poster at main conference): novel method for transferring knowledge across neurodegenerative diseases
