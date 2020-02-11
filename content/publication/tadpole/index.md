@@ -1,5 +1,5 @@
 +++
-title = "TADPOLE Challenge: Prediction of Longitudinal Evolution in Alzheimer's Disease"
+title = "TADPOLE Challenge: Results after 1 Year Follow-up"
 date = 2018-04-27T21:45:32-05:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -53,8 +53,8 @@ projects = ['tadpole']
 slides = ""
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1805.03909.pdf"
-url_preprint = "https://arxiv.org/abs/1805.03909"
+url_pdf = "https://arxiv.org/pdf/2002.03419.pdf"
+url_preprint = "https://arxiv.org/pdf/2002.03419"
 url_code = "https://github.com/noxtoby/TADPOLE"
 url_dataset = ""
 url_project = ""

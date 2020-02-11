@@ -85,7 +85,9 @@ user_groups = ["Researchers"]
 
 Email: razvan at csail.mit.edu
 
-I am a postdoctoral researcher at MIT, working with Polina Golland to develop machine learning algorithms for quantifying pathologies in the human brain. More precisely, I focus on automatic extraction and quantification of lesions and white matter hyperintensities, which would enable researchers to perform quantitative studies on large populations. This would further enable us to understand the mechanisms underlying these pathologies and to develop effective treatments. 
+I am a postdoctoral researcher at MIT, working with [Polina Golland](https://people.csail.mit.edu/polina/) to develop machine learning algorithms for healthcare applications. I currently work on methods to visualise what black-box classifiers learned, which are very important for debugging classifiers, increasing model performance and building trust in order to deploy such systems to the clinic.
+
+During my PhD, I developed Bayesian statistical models for prediction of Alzheimer's disease and related neurodegenerative diseases. I further co-organised TADPOLE, an international competition that compared 92 algorithms from 33 teams at predicting the evolution of Alzheimer's disease.   
 
 I also have a keen interest in general machine learning and computational intelligence, in order to make computers perform intelligent tasks. 
 
