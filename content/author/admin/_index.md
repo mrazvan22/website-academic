@@ -85,11 +85,11 @@ user_groups = ["Researchers"]
 
 Email: razvan at csail.mit.edu
 
-I am a postdoctoral researcher at MIT, working with [Polina Golland](https://people.csail.mit.edu/polina/) to develop machine learning algorithms for healthcare applications. I currently work on methods to visualise what black-box classifiers learned, which are very important for debugging classifiers, increasing model performance and building trust in order to deploy such systems to the clinic.
+I am a postdoctoral researcher in [Polina Golland's lab](https://people.csail.mit.edu/polina/) at MIT, working on machine learning algorithms for healthcare applications. I currently develop methods to visualise what black-box classifiers learned, which are very important for debugging classifiers, increasing model performance and building trust to deploy such systems to the clinic.
 
-During my PhD, I developed Bayesian statistical models for prediction of Alzheimer's disease and related neurodegenerative diseases. I further co-organised TADPOLE, an international competition that compared 92 algorithms from 33 teams at predicting the evolution of Alzheimer's disease.   
+During my PhD, I developed Bayesian statistical models for prediction of Alzheimer's disease and related neurodegenerative diseases. Such models were able to not only to estimate the continuous evolution of Alzheimer's disease, but also discover novel spatial patterns of brain pathology (e.g. [DIVE](https://www.sciencedirect.com/science/article/pii/S1053811919301491)) or transfer such "learned evolutions" in populations with different diseases (e.g. [DKT](https://arxiv.org/abs/1901.03517)). I further co-organised [TADPOLE](https://tadpole.grand-challenge.org/), an international competition that compared 92 algorithms from 33 teams at predicting the evolution of Alzheimer's disease. Finally, together with UCL colleagues N. Firth and S. Primativo, I performed one of the first comprehensive clinical studies ([Firth et al., Brain, 2019](https://academic.oup.com/brain/article/142/7/2082/5521045)) on the evolution of Posterior Cortical Atrophy, a rare dementia affecting the visual system.
 
-I also have a keen interest in general machine learning and computational intelligence, in order to make computers perform intelligent tasks. 
+I also have a keen interest in general machine learning and computational intelligence, in order to make computers perform intelligent tasks. Aside from research, at MIT I am also involved with the [Postdoctoral Association](https://pda.mit.edu/), working with the MIT administration to create a better research environment for postdocs.
 
 You can see a complete list of publications on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=AzfoycUAAAAJ) page. 
 
