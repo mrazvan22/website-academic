@@ -55,7 +55,7 @@ slides = ""
 # Links (optional).
 url_pdf = "http://www.homepages.ucl.ac.uk/~rmaprvm/MarinescuIPMI2017.pdf"
 url_preprint = ""
-url_code = "https://github.com/mrazvan22/dive"
+url_code = "https://github.com/razvanmarinescu/dive"
 url_dataset = ""
 url_project = ""
 url_slides = ""

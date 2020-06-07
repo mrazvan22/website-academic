@@ -55,7 +55,7 @@ slides = ""
 # Links (optional).
 url_pdf = ""
 url_preprint = "https://arxiv.org/abs/1905.08627"
-url_code = "https://github.com/mrazvan22/brain-coloring/"
+url_code = "https://github.com/razvanmarinescu/brain-coloring/"
 url_dataset = ""
 url_project = ""
 url_slides = ""

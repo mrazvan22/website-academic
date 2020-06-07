@@ -53,7 +53,7 @@ projects = []
 # Links (optional).
 url_pdf = "https://arxiv.org/abs/1905.08627"
 url_website = "https://brainpainter.csail.mit.edu/"
-url_code = "https://github.com/mrazvan22/brain-coloring/"
+url_code = "https://github.com/razvanmarinescu/brain-coloring/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
