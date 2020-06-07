@@ -46,4 +46,4 @@ weight = 10
 * **April 2019**: Our paper on the progression of Posterior Cortical Atrophy was accepted in Brain! 
 * **March 2019**: Our paper describing [DIVE, the spatio-temporal disease progression model](https://www.sciencedirect.com/science/article/pii/S1053811919301491?via%3Dihub), was published in NeuroImage.
 * **February 2019**: Started postdoc at MIT with Polina Golland working on neroimaging analysis of stroke.
-* **January 2019**: Defended my PhD thesis at UCL. Stanley Durrleman and Janaina Mourao-Miranda were part of the examining committee.
+* **January 2019**: Defended my [PhD thesis](https://arxiv.org/abs/2003.04805) at UCL. Stanley Durrleman and Janaina Mourao-Miranda were part of the examining committee.

@@ -53,7 +53,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "publication/thesis/razvan_marinescu_thesis.pdf"
+url_pdf = "https://arxiv.org/abs/2003.04805"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
