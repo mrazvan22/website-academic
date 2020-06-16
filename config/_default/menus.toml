@@ -40,9 +40,15 @@
    name = "CV"
    url = "files/RazvanMarinescu_CV.pdf"
    weight = 6
+
+[[main]]
+   name = "Blog"
+   url = "https://razvanmarinescu.github.io/"
+   weight = 7
+
  
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 8
 
