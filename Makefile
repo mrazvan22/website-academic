@@ -6,13 +6,13 @@ compileSite:
 
 # don't use athena
 copyToAthena:
-	hugo; scp -r public/* razvan@athena.dialup.mit.edu:/afs/athena.mit.edu/user/r/a/razvan/www/
+	hugo; rsync -rav public/* razvan@athena.dialup.mit.edu:/afs/athena.mit.edu/user/r/a/razvan/www/
 
 copyToCSAIL:
-	hugo; scp -r public/* razvan@login.csail.mit.edu:/afs/csail.mit.edu/u/r/razvan/public_html
+	hugo; rsync -rav public/* razvan@login.csail.mit.edu:/afs/csail.mit.edu/u/r/razvan/public_html
 
 copyToCSAILFromSesame:
-	hugo; sudo cp -r public/* /afs/csail.mit.edu/u/r/razvan/public_html
+	hugo; sudo rsync -rav public/* /afs/csail.mit.edu/u/r/razvan/public_html
 
 syncPdfs:
 	cp ../presentations/overview/pres.pdf content/talk/martinos2019
