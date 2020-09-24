@@ -1,6 +1,6 @@
 +++
 title = "TADPOLE Challenge: Results after 1 Year Follow-up"
-date = 2018-04-27T21:45:32-05:00
+date = 2020-02-09T21:45:32-05:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Razvan V. Marinescu", "Neil P. Oxtoby", "Alexandra L. Young", "Esther E. Bron", "Arthur W. Toga", "Michael W. Weiner", "Frederik Barkhof", "Nick C. Fox", "Stefan Klein", "Daniel C. Alexander", "the EuroPOND Consortium"]

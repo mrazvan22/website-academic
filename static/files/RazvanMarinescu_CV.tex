@@ -56,6 +56,73 @@
 
 %\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
 
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+%\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\urlstyle{same}
+
+%\raggedbottom
+%\raggedright
+%\setlength{\tabcolsep}{0in}
+%
+%% Sections formatting
+%\titleformat{\section}{
+%  \vspace{-4pt}\scshape\raggedright\large
+%}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
 \begin{document}
 
 \pagestyle{empty} % Removes page numbering
@@ -86,35 +153,46 @@
 %-------------------------------------------------------------------------------
 \vspace{-0.5em}
 \section*{Research Interests}
-Machine Learning, Medical Applications, Computer Vision, Bayesian Statistics, Inference
+\begin{itemize}
+\item Biomedical image analysis, particularly for neurology and neuroscience applications
+\item Generative modeling using deep learning architectures, for image reconstruction and manipulation
+\item Bayesian modelling, statistical inference, efficient sampling
+\item Time-series models with latent variables, for capturing disease processes
+\item Causal machine learning, for building robust models able to deal with distribution shifts
+\end{itemize}
+
 \vspace{-0.5em}
 
-\section*{Current Employer}
-\begin{tabular}{r|p{15cm}}
-Feb 2019 & \large\textbf{Postdoctoral Associate at Massachusetts Institute of Technology} \\
-- present & \emph{Advisor: Polina Golland}\\
-& Research focus: brain image analysis, classifier interpretability, generative modelling\\
-% \multicolumn{2}{c}{} \\
-\end{tabular}
-
 \section*{Education}
+%  \resumeSubHeadingListStart
+%    \resumeSubheading
+%      {Southwestern University}{Georgetown, TX}
+%      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
+%    \resumeSubheading
+%      {Blinn College}{Bryan, TX}
+%      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+%  \resumeSubHeadingListEnd
+      
+\begin{tabular}{>{\raggedleft\arraybackslash} p{0.93cm}|p{15.7cm}}
+2019 & \large\textbf{Postdoctoral Associate, CSAIL, Massachusetts Institute of Technology} \\
+- now & \emph{Advisor: Polina Golland}\\
+& Research focus: generative models, image reconstruction, Bayesian inversion\\
 
-\begin{tabular}{r|p{15.7cm}}
-2014 & \large\textbf{4-Year PhD in Medical Imaging, University College London}\\
-- 2018 & PhD project: "Disease Progression Modelling and Evaluation in Alzheimer's Disease and Posterior Cortical Atrophy"\\
-& \small Supervisors: Prof. Daniel Alexander, Dr. Sebastian Crutch, Dr. Neil Oxtoby\\
+&\\
+
+2014 & \large\textbf{PhD, Department of Computer Science, University College London}\\
+- 2019 & \emph{PhD thesis: "Modelling the Neuroanatomical Progression of
+Alzheimer’s Disease and Posterior Cortical Atrophy" -- \small Supervisors: Prof. Daniel Alexander, Prof. Sebastian Crutch, Dr. Neil Oxtoby}\\
 % & I developed statistical and computational models of neurodegenerative disease progression. Applied them to different types of dementia such as typical Alzheimer's disease and Posterior Cortical Atrophy and in order to perform probabilistic disease staging and forecast the future evolution of subjects. I also organised the international TADPOLE Competition, which aims to identify algorithms and features that best predict the evolution of subjects at-risk of Alzheimer's disease.\\\\
 
 & Research focus: bayesian latent-variable models, machine learning, neuroimaging, disease progression modelling.\\
 
 \\
-2010 & \large\textbf{4-Year MEng in Computer Science, Imperial College London}\\
+2010 & \large\textbf{MEng, Department of  Computer Science, Imperial College London}\\
 - 2014 & \emph{First Class Honours} (top 10\% of class in final year) \\
 & Master thesis: ``On a new metric to compare internal structures in biological
 networks''\\
-& \small Supervisor: Dr. Natasa Przulj\\
-& Research focus: graph analysis, applications to biological and economic networks
-% & I developed a novel graph signature that was capturing the network structure around a particular node. I applied the signature to networks representing world-trade, protein-protein interactions and matabolic pathways and showed that it correlates with different network properties, such as oil price (trade network), key metabolic pathways (metabolic network) and key protein functions (protein network). \\
+& \small Supervisor: Prof. Natasa Przulj\\
 \end{tabular}
 
 
@@ -126,7 +204,7 @@ networks''\\
 
 
 
-\begin{tabular}{r|p{15cm}}
+\begin{tabular}{>{\raggedleft\arraybackslash} p{0.93cm}|p{15cm}}
 
 % Jan 2019 & \large\textbf{Postdoctoral Associate at Massachusetts Institute of Technology} \\
 % - present & \emph{Advisor: Pollina Golland}\\
@@ -136,35 +214,35 @@ networks''\\
 % %------------------------------------------------
 
 
-Jan 2016 & \large\textbf{Teaching Assistant in Computational Modelling, UCL} \\
-- Apr 2018 & Taught computational modelling, bayesian statistics and numerical optimisation to Master students. Marked the students' coursework.\\
-\multicolumn{2}{c}{} \\
+2016 & \large\textbf{Teaching Assistant in Computational Modelling, UCL} \\
+- 2018 & Taught computational modelling, bayesian statistics and numerical optimisation to Master students. Marked the students' coursework.\\\\
+%\multicolumn{2}{c}{} \\
+%
+%%------------------------------------------------
+
+
+2014 & \large\textbf{Graduate Residence Advisor, University College London} \\
+- 2018 & Provided pastoral support to students and emergency support.\\\\
+%\multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
 
-Sep 2014 & \large\textbf{Student Residence Advisor, University College London} \\
-- Aug 2018 & Provided pastoral support to students and emergency support.\\
-\multicolumn{2}{c}{} \\
-
-%------------------------------------------------
-
-
-Oct 2012 & \large\textbf{Teaching Assistant in Programming, Imperial College London} \\
-- Dec 2013 & Taught Haskell, Java and C to undergraduate students. Weekly marking of students' coursework.\\
-\multicolumn{2}{c}{} \\
+2012 & \large\textbf{Teaching Assistant in Programming, Imperial College London} \\
+- 2013 & Taught Haskell, Java and C to undergraduate students. Weekly marking of students' coursework.\\\\
+%\multicolumn{2}{c}{} \\
 
 
  %------------------------------------------------
 
-Mar - Sep & \large\textbf{Industrial Placement at J.P. Morgan Chase \& Co, Emerging
+2013 & \large\textbf{Industrial Placement at J.P. Morgan Chase \& Co, Emerging
 Markets}\\
-2013 & \emph{Assisted the retirement of a legacy system that was processing end-of-day market risk.}\\
-\multicolumn{2}{c}{} \\
+ & \emph{Assisted the retirement of a legacy system that was processing end-of-day market risk.}\\\\
+%\multicolumn{2}{c}{} \\
 %------------------------------------------------
 
-Jul - Sep & \large\textbf{Summer Internship at Goldman Sachs, Equities Technology}\\
-2012 & \emph{Built programmes that automatically re-factored the Java source-code of a trading system. Learned about financial instruments and live market data.}\\
+2012 & \large\textbf{Summer Internship at Goldman Sachs, Equities Technology}\\
+ & \emph{Built programmes that automatically re-factored the Java source-code of a trading system. Learned about financial instruments and live market data.}\\
 
 
 %------------------------------------------------
@@ -259,6 +337,7 @@ Jul - Sep & \large\textbf{Summer Internship at Goldman Sachs, Equities Technolog
 
 \begin{itemize}
 \subsection*{2020}
+\item[\poster] \textbf{Marinescu, R.V.}, Young, A.L., Show, don't tell. Brain visualisations for neuroimaging studies
 \item[\journal] \textbf{Marinescu, R.V.} et al.. ,The Alzheimer's Disease Prediction Of Longitudinal Evolution (TADPOLE) Challenge: Results after 1 Year Follow-up, arXiv preprint arXiv:2002.03419
 
 \subsection*{2019}
@@ -280,6 +359,8 @@ Jul - Sep & \large\textbf{Summer Internship at Goldman Sachs, Equities Technolog
 % USE HARVARD style
 \section*{Joint publications}
 \begin{itemize}
+\subsection*{2020}
+\item[\poster] Slator, P., Hutter, J., \textbf{Marinescu, R. V.}, Palombo, M., Jackson, L., Ho, A., Chappell, L., Rutherford, M., Hajnal, J. and Alexander, D., 2020. Data-Driven Multi-Contrast Spectral Microstructure Imaging with InSpect, MICCAI.
 \subsection*{2019}
 \item[\journal] Eshaghi, A., \textbf{Marinescu, R.V.}, Young, A.L., Firth, N.C., Prados, F., Jorge Cardoso, M., Tur, C., De Angelis, F., Cawley, N., Brownlee, W.J. and De Stefano, N., 2018. Progression of regional grey matter atrophy in multiple sclerosis. Brain, 141(6), pp.1665-1677.
 \item[\poster] Slator, P.J., Hutter, J., \textbf{Marinescu, R.V.}, Palombo, M., Young, A.L., Jackson, L.H., Ho, A., Chappell, L.C., Rutherford, M., Hajnal, J.V. and Alexander, D.C., 2019, June. InSpect: INtegrated SPECTral Component Estimation and Mapping for Multi-contrast Microstructural MRI. In International Conference on Information Processing in Medical Imaging (pp. 755-766). Springer, Cham.
@@ -304,9 +385,9 @@ Jul - Sep & \large\textbf{Summer Internship at Goldman Sachs, Equities Technolog
 
 \end{itemize}
 
-\section*{Under review/In preparation}
+\section*{Under review}
 \begin{itemize}
- \item \textbf{Marinescu, R.V.} et al, The Alzheimer's Disease Prediction Of Longitudinal Evolution (TADPOLE) Challenge: Results after 1 Year Follow-up, in preparation
+\item[\journal]  \textbf{Marinescu, R.V.} et al, The Alzheimer's Disease Prediction Of Longitudinal Evolution (TADPOLE) Challenge: Results after 1 Year Follow-up, in preparation
 \end{itemize}
 
 
@@ -318,21 +399,25 @@ Jul - Sep & \large\textbf{Summer Internship at Goldman Sachs, Equities Technolog
 
 \section*{Talks}
 \begin{itemize}
- \item \emph{Machine learning for prediction and visualisation of brain diseases. Demonstration on Alzheimer's disease, Boston Pydata meetup, 2020}
- \item \emph{BrainPainter: A software for the visualisation of brain structures, biomarkers and associated pathological processes}, MICCAI MBIA workshop, 2019
- \item \emph{TADPOLE Challenge: Accurate Alzheimer's disease prediction through crowdsourced forecasting of future data}, MICCAI PRIME workshop, 2019
- \item \emph{Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy}, Athinoula A. Martinos Center, Cambridge MA, 2019
+ \item \emph{GAN Tutorial - From basics to current state-of-the-art, and towards key applications in medicine}, Harvard DBMI Clinical Informatics Lecture Series, Sept. 2020
+ \item \emph{Machine learning for prediction and visualisation of brain diseases. Demonstration on Alzheimer's disease}, Boston Pydata meetup, Feb. 2020
+ \item \emph{BrainPainter: A software for the visualisation of brain structures, biomarkers and associated pathological processes}, MICCAI MBIA workshop, Nov. 2019
+ \item \emph{TADPOLE Challenge: Accurate Alzheimer's disease prediction through crowdsourced forecasting of future data}, MICCAI PRIME workshop, Nov. 2019
+ \item \emph{Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy}, Athinoula A. Martinos Center, Cambridge MA, April 2019
  \item \emph{A vertex clustering model for disease progression: application to cortical thickness images}. International Conference on Information Processing in Medical Imaging, 2017 (Erbsmann Prize Runner-up)
 \end{itemize}
 
 \section*{Review experience}
 \begin{itemize}
- \item Information Processing in Medical Imaging (IPMI)
- \item Medical Image Computing and Computer Assisted Surgery (MICCAI)
- \item NeuroImage
- \item International Conference on Machine Learning (ICML)
- \item Alzheimer's and Dementia
- \item Conference on Health, Inference, and Learning (CHIL)
+ \item Medical Image Computing and Computer Assisted Surgery (MICCAI), 2018, 2020
+ \item Information Processing in Medical Imaging (IPMI), 2019
+ \item NeurIPS 2020
+ \item NeurIPS Machine Learning for Health Workshop, 2019
+ \item International Conference on Machine Learning (ICML), 2020
+  \item NeuroImage 2019
+  \item Conference on Health, Inference, and Learning (CHIL),2019
+ \item Alzheimer's and Dementia, 2019,2020
+
 \end{itemize}
 
 \section*{News Coverage}

@@ -33,7 +33,11 @@ weight = 10
   
 +++
 
-
+* **Right now**: Working on using powerful generator models (StyleGAN2) as image priors for multiple reconstruction tasks. Planning to submit to CVPR 2021. Also applying for academic tenure-track positions. 
+* **September 2020**: Talk on GANs at the Harvard DBMS [Clinical Lecture Series](https://dbmi.hms.harvard.edu/events/clinical-informatics-lecture-series). See [video recording](https://harvard.zoom.us/rec/play/y2a08lvFeC7qcpVVhLJxW5dvIFS5URPfQ6idyzBEFHuYjZK4KAlFgEsAPObaZ2lD4Riz1O0LgxDRNZQ_.GJEejoYu4r1ZjqFN?continueMode=true&_x_zm_rtaid=TO6j5F0vREKikwYNUnSlKw.1600875537789.2fcad5ea3affd5ff6c38b6752da1ab72&_x_zm_rhtaid=950) and [slides](talk/gan-tutorial/pres.pdf).  
+* **July 2020**: [Talk at AAIC conference](https://www.youtube.com/watch?v=wYHS9OW-Dv8&ab_channel=RazvanMarinescu) on final results of the TADPOLE Challenge. 
+* **July 2020**: [Poster at AAIC conference](https://www.youtube.com/watch?v=ly2IBx3XUkc&t=1s&ab_channel=RazvanMarinescu) on BrainPainter.
+* **June 2020**: Wrote [blog post](https://razvanmarinescu.github.io/why-are-generative-models-important/) on why generative models are important
 * **February 2020**: TADPOLE Challenge results paper now on [arxiv](https://arxiv.org/abs/2002.03419). We present all participant algorithms and complete analysis of the competition results.
 * **September 2019**: Three of my papers were accepted at MICCAI 2019!   
     * [TADPOLE](https://tadpole.grand-challenge.org/) (oral at PRIME workshop): preliminary results of Alzheimer's prediction challenge

@@ -1,6 +1,6 @@
 +++
 title = "Disease Knowledge Transfer across Neurodegenerative Diseases"
-date = 2019-02-27T21:45:40-05:00
+date = 2019-07-29T21:45:40-05:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Razvan V. Marinescu", "Marco Lorenzi", "Stefano Blumberg", "Alexandra L. Young", "Pere P. Morell", "Neil P. Oxtoby", "Arman Eshaghi", "Keir X. Yong", "Sebastian J. Crutch", "Daniel C. Alexander"]

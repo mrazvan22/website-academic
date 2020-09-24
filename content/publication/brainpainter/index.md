@@ -1,6 +1,6 @@
 +++
 title = "BrainPainter: A software for the visualisation of brain structures, biomarkers and associated pathological processes"
-date = 2019-09-11T08:34:42-04:00
+date = 2019-06-11T08:34:42-04:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Razvan V. Marinescu", "Arman Eshaghi", "Daniel C. Alexander", "Polina Golland"]

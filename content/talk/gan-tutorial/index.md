@@ -52,7 +52,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_video = ""
+url_video = "https://harvard.zoom.us/rec/share/iZmoC5NxWMWeXrxWMrOFM-C54PpQOj8KQ0Igfq_GYZj_8Wn44QU1xzT78GvACDNe.UAaZz2fHQEG25znO"
 url_code = ""
 
 # Featured image
