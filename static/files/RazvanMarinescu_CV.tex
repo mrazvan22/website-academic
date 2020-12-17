@@ -1,43 +1,13 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Plasmati Graduate CV
-% LaTeX Template
-% Version 1.0 (24/3/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Alessandro Plasmati (alessandro.plasmati@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template needs to be compiled with XeLaTeX.
-% The main document font is called Fontin and can be downloaded for free
-% from here: http://www.exljbris.com/fontin.html
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%-------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%-------------------------------------------------------------
-
 \documentclass[a4paper,10pt]{article} % Default font size and paper size
 
-%\usepackage{fontspec} % For loading fonts
-%\defaultfontfeatures{Mapping=tex-text}
-%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
-
-%\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 
 \usepackage[
-    top    = 1.2cm,
-    bottom = 1.2cm,
-    left   = 1.2cm,
-    right  = 1.2cm]{geometry}
+    top    = 1.6cm,
+    bottom = 1.6cm,
+    left   = 1.6cm,
+    right  = 1.6cm]{geometry}
 
 %\usepackage{fullpage} % Margin formatting of the A4 page, an alternative to
 %layaureo can be \usepackage{fullpage}
@@ -45,7 +15,7 @@
 %\addtolength{\voffset}{-1.3cm}
 %\addtolength{\hoffset}{-1.3cm}
 
-\usepackage{hyperref} % Required for adding links	and customizing them
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref} % Required for adding links	and customizing them
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} %
 % Set link colors throughout the document
@@ -57,70 +27,16 @@
 %\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
 
 \usepackage{latexsym}
-\usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
-%\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
 \usepackage{enumitem}
-%\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
 
 \urlstyle{same}
 
-%\raggedbottom
-%\raggedright
-%\setlength{\tabcolsep}{0in}
-%
-%% Sections formatting
-%\titleformat{\section}{
-%  \vspace{-4pt}\scshape\raggedright\large
-%}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 
 \begin{document}
@@ -164,14 +80,7 @@
 \vspace{-0.5em}
 
 \section*{Education}
-%  \resumeSubHeadingListStart
-%    \resumeSubheading
-%      {Southwestern University}{Georgetown, TX}
-%      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-%    \resumeSubheading
-%      {Blinn College}{Bryan, TX}
-%      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
-%  \resumeSubHeadingListEnd
+
       
 \begin{tabular}{>{\raggedleft\arraybackslash} p{0.93cm}|p{15.7cm}}
 2019 & \large\textbf{Postdoctoral Associate, CSAIL, Massachusetts Institute of Technology} \\
@@ -180,7 +89,7 @@
 
 &\\
 
-2014 & \large\textbf{PhD, Department of Computer Science, University College London}\\
+2014 & \large\textbf{PhD, Center for Medical Image Computing, University College London}\\
 - 2019 & \emph{PhD thesis: "Modelling the Neuroanatomical Progression of
 Alzheimer’s Disease and Posterior Cortical Atrophy" -- \small Supervisors: Prof. Daniel Alexander, Prof. Sebastian Crutch, Dr. Neil Oxtoby}\\
 % & I developed statistical and computational models of neurodegenerative disease progression. Applied them to different types of dementia such as typical Alzheimer's disease and Posterior Cortical Atrophy and in order to perform probabilistic disease staging and forecast the future evolution of subjects. I also organised the international TADPOLE Competition, which aims to identify algorithms and features that best predict the evolution of subjects at-risk of Alzheimer's disease.\\\\
@@ -242,7 +151,7 @@ Markets}\\
 %------------------------------------------------
 
 2012 & \large\textbf{Summer Internship at Goldman Sachs, Equities Technology}\\
- & \emph{Built programmes that automatically re-factored the Java source-code of a trading system. Learned about financial instruments and live market data.}\\
+ & \emph{Built software that automatically re-factored the Java source-code of a trading system. Learned about financial instruments and live market data.}\\
 
 
 %------------------------------------------------
@@ -259,7 +168,7 @@ Markets}\\
 \section*{Awards}
 
 \begin{tabular}{r|p{15.7cm}}
-2017 & Runner up (jointly) for the Francois Erbsmann Prize at the IPMI conference.\\
+2017 & Runner up (jointly) for the Francois Erbsmann Prize (best paper award) at the IPMI conference.\\
 2015-17 & Travel and registration fellowships for several conferences: IPMI, AAIC and Human Brain Project.\\
 2013 & DAAD Scholarship for doing a German Language course in Aachen, Germany over the summer.\\
 %& \\
@@ -267,12 +176,12 @@ Markets}\\
 %& \\
 2010 & Sponsored visit to NATO Headquarters, Brussels, for achievements in international projects and contests.\\
 %& \\
-2009 & Grand Prize at the International Space Settlement Design Competition offered by NASA Johnsons Space Center.\\
+2009 & Grand Prize at the International Space Settlement Design Competition offered by NASA Johnson Space Center.\\
 %& \\
 2008 & Diploma of Excellency awarded by the Government of Romania for "impressive problem-solving skills".\\
 %& \\
-2007 & Bronze Medal ar the 6th International Computer Project Competition
-"Informatix".\\
+2007 & Bronze Medal at the 6th International Computer Project Competition
+"Infomatrix".\\
 %& \\
 & Silver Medal at the \emph{National Mathematics Olympiad} in Romania.
 \end{tabular}
@@ -325,32 +234,48 @@ Markets}\\
 %\end{itemize}
 
 
+\section*{Selected publications}
 
- % USE HARVARD style
-\section*{First author publications}
-
-\definecolor{darkgreen}{rgb}{1,0.6,0}
+\definecolor{darkgreen}{rgb}{0.8,0.6,0.2}
 \newcommand{\poster}{\textcolor{red}{Poster}}
-\newcommand{\talk}{\textcolor{darkgreen}{Talk}}
+\newcommand{\talk}{\textcolor{darkgreen}{Oral}}
 \newcommand{\journal}{\textcolor{blue}{Journal}}
 
 
 \begin{itemize}
 \subsection*{2020}
-\item[\poster] \textbf{Marinescu, R.V.}, Young, A.L., Show, don't tell. Brain visualisations for neuroimaging studies
-\item[\journal] \textbf{Marinescu, R.V.} et al.. ,The Alzheimer's Disease Prediction Of Longitudinal Evolution (TADPOLE) Challenge: Results after 1 Year Follow-up, arXiv preprint arXiv:2002.03419
+\item[Conference] \textbf{Marinescu, R.V.}, Moyer, D., Golland, P., 2020. Bayesian Image Reconstruction using Deep Generative Models. arXiv preprint arXiv:2012.04567, under review for CVPR 2021.
+\item[\journal] \textbf{Marinescu, R.V.}, Oxtoby, N.P., Young, A.L., Bron, E.E., Toga, A.W., Weiner, M.W., Barkhof, F., Fox, N.C., Eshaghi, A., Toni, T. and Salaterski, M., 2020. The Alzheimer's Disease Prediction Of Longitudinal Evolution (TADPOLE) Challenge: Results after 1 Year Follow-up. arXiv preprint arXiv:2002.03419., under review for Nature Communications
 
 \subsection*{2019}
 % USE HARVARD style
 \item[\poster] \textbf{Marinescu, R.V.}, Lorenzi, M., Blumberg, S., Young, A.L., Morell, P.P., Oxtoby, N.P., Eshaghi, A., Yong, K.X., Crutch, S.J. and Alexander, D.C., 2019. Disease Knowledge Transfer across Neurodegenerative Diseases. MICCAI, 2019.
-\item[\talk] \textbf{Marinescu, R.V.}, Alexander, D.C. and Golland, P., 2019. BrainPainter: A software for the visualisation of brain structures, biomarkers and associated pathological processes, MICCAI MBIA Workshop, 2019
-\item[\talk] \textbf{Marinescu, R.V.}, Oxtoby, N.P., Young, A.L., Bron, E.E., Toga, A.W., Weiner, M.W., Barkhof, F., Fox, N.C., Golland, P., Klein, S. and Alexander, D.C., 2019, October. TADPOLE challenge: Accurate alzheimer’s disease prediction through crowdsourced forecasting of future data. In MICCAI Workshop on PRedictive Intelligence In MEdicine.
+
 \item[\journal] \textbf{Marinescu, R.V.}, Eshaghi, A., Lorenzi, M., Young, A.L., Oxtoby, N.P., Garbarino, S., Crutch, S.J., Alexander, D.C. and Alzheimer's Disease Neuroimaging Initiative, 2019. DIVE: A spatiotemporal progression model of brain pathology in neurodegenerative disorders. NeuroImage, 192, pp.166-177.
+
 \item[\journal] (*joint first-authors) *Firth, N.C., *Primativo, S., *\textbf{Marinescu, R.V.}, Shakespeare, T.J., Suarez-Gonzalez, A., Lehmann, M., Carton, A., Ocal, D., Pavisic, I., Paterson, R.W. and Slattery, C.F., 2019. Longitudinal neuroanatomical and cognitive progression of posterior cortical atrophy. Brain.
+
+\subsection*{2017}
+\item[\talk] \textbf{Marinescu, R.V.}, Eshaghi, A., Lorenzi, M., Young, A.L., Oxtoby, N.P., Garbarino, S., Shakespeare, T.J., Crutch, S.J., Alexander, D.C. and Alzheimer’s Disease Neuroimaging Initiative, 2017, June. A vertex clustering model for disease progression: application to cortical thickness images. In International Conference on Information Processing in Medical Imaging (pp. 134-145). Springer, Cham. (Erbstman Prize Runner-up)
+
+
+
+\end{itemize}
+
+ % USE HARVARD style
+\section*{Other First author publications}
+
+\begin{itemize}
+
+\subsection*{2020}
+\item[\talk] \textbf{Marinescu, R.V.}, Bron, E.E., Oxtoby, N.P., Young, A.L., Toga, A.W., Weiner, M.W., Barkhof, F., Fox, N.C., Golland, P., Klein, S. and Alexander, D.C., 2020, July. Predicting Alzheimer's disease progression: Results from the TADPOLE Challenge. In 2020 Alzheimer's Association International Conference.
+
+\subsection*{2019}
+\item[\talk] \textbf{Marinescu, R.V.}, Alexander, D.C. and Golland, P., 2019. BrainPainter: A software for the visualisation of brain structures, biomarkers and associated pathological processes, MICCAI MBIA Workshop, 2019
+\item[\talk] \textbf{Marinescu, R.V.}, Oxtoby, N.P., Young, A.L., Bron, E.E., Toga, A.W., Weiner, M.W., Barkhof, F., Fox, N.C., Golland, P., Klein, S. and Alexander, D.C., 2019, October. TADPOLE challenge: Accurate Alzheimer's disease prediction through crowdsourced forecasting of future data. In MICCAI Workshop on PRedictive Intelligence In MEdicine.
 \subsection*{2018}
 \item[\journal] \textbf{Marinescu, R.V.}, Oxtoby, N.P., Young, A.L., Bron, E.E., Toga, A.W., Weiner, M.W., Barkhof, F., Fox, N.C., Klein, S. and Alexander, D.C., 2018. TADPOLE Challenge: Prediction of Longitudinal Evolution in Alzheimer's Disease. arXiv preprint arXiv:1805.03909.
 \subsection*{2017}
-\item[\talk] \textbf{Marinescu, R.V.}, Eshaghi, A., Lorenzi, M., Young, A.L., Oxtoby, N.P., Garbarino, S., Shakespeare, T.J., Crutch, S.J., Alexander, D.C. and Alzheimer’s Disease Neuroimaging Initiative, 2017, June. A vertex clustering model for disease progression: application to cortical thickness images. In International Conference on Information Processing in Medical Imaging (pp. 134-145). Springer, Cham.
 \item[\poster] \textbf{Marinescu, R.V.}, Primativo, S., Young, A.L., Oxtoby, N.P., Firth, N.C., Eshaghi, A., Garbarino, S., Cardoso, J.M., Yong, K., Fox, N.C. and Lehmann, M., 2017. Analysis Of The Heterogeneity Of Posterior Cortical Atrophy: Data-driven Model Predicts Distinct Atrophy Patterns For Three Different Cognitive Subgroups. Alzheimer's \& Dementia: The Journal of the Alzheimer's Association, 13(7), pp.P106-P108.
 \subsection*{2016}
 \item[\poster] \textbf{Marinescu, R.V.}, Young, A.L., Oxtoby, N.P., Firth, N.C., Lorenzi, M., Eshaghi, A., Wottschel, V., Cardoso, M.J., Modat, M., Yong, K. and Primativo, S., 2016. A Data-driven Comparison Of The Progression Of Brain Atrophy In Posterior Cortical Atrophy And Alzheimer's Disease. Alzheimer's \& Dementia: The Journal of the Alzheimer's Association, 12(7), pp.P401-P402.
@@ -359,8 +284,6 @@ Markets}\\
 % USE HARVARD style
 \section*{Joint publications}
 \begin{itemize}
-\subsection*{2020}
-\item[\poster] Slator, P., Hutter, J., \textbf{Marinescu, R. V.}, Palombo, M., Jackson, L., Ho, A., Chappell, L., Rutherford, M., Hajnal, J. and Alexander, D., 2020. Data-Driven Multi-Contrast Spectral Microstructure Imaging with InSpect, MICCAI.
 \subsection*{2019}
 \item[\journal] Eshaghi, A., \textbf{Marinescu, R.V.}, Young, A.L., Firth, N.C., Prados, F., Jorge Cardoso, M., Tur, C., De Angelis, F., Cawley, N., Brownlee, W.J. and De Stefano, N., 2018. Progression of regional grey matter atrophy in multiple sclerosis. Brain, 141(6), pp.1665-1677.
 \item[\poster] Slator, P.J., Hutter, J., \textbf{Marinescu, R.V.}, Palombo, M., Young, A.L., Jackson, L.H., Ho, A., Chappell, L.C., Rutherford, M., Hajnal, J.V. and Alexander, D.C., 2019, June. InSpect: INtegrated SPECTral Component Estimation and Mapping for Multi-contrast Microstructural MRI. In International Conference on Information Processing in Medical Imaging (pp. 755-766). Springer, Cham.
@@ -381,26 +304,22 @@ Markets}\\
 \item[\poster] Firth, N.C., Brotherhood, E., Primativo, S., Young, A.L., \textbf{Marinescu, R.V.}, Oxtoby, N.P., Crutch, S.J. and Alexander, D.C., 2016. Data-driven Disease Progression Modelling Using Neuropsychological Tests: Posterior Cortical Atrophy Vs Alzheimer's Disease. Alzheimer's \& Dementia: The Journal of the Alzheimer's Association, 12(7), pp.P963-P964.
 
 \subsection*{2015}
-\item[\poster] Young, A.L., Oxtoby, N.P., Huang, J., \textbf{Marinescu, R.V.}, Daga, P., Cash, D.M., Fox, N.C., Ourselin, S., Schott, J.M., Alexander, D.C. and Alzheimers Disease Neuroimaging Initiative, 2015, June. Multiple orderings of events in disease progression. In International Conference on Information Processing in Medical Imaging (pp. 711-722). Springer, Cham.
+\item[\poster] Young, A.L., Oxtoby, N.P., Huang, J., \textbf{Marinescu, R.V.}, Daga, P., Cash, D.M., Fox, N.C., Ourselin, S., Schott, J.M., Alexander, D.C. and Alzheimer's Disease Neuroimaging Initiative, 2015, June. Multiple orderings of events in disease progression. In International Conference on Information Processing in Medical Imaging (pp. 711-722). Springer, Cham.
 
 \end{itemize}
 
-\section*{Under review}
-\begin{itemize}
-\item[\journal]  \textbf{Marinescu, R.V.} et al, The Alzheimer's Disease Prediction Of Longitudinal Evolution (TADPOLE) Challenge: Results after 1 Year Follow-up, in preparation
-\end{itemize}
 
 
 \section*{Theses}
 \begin{itemize}
  \item MEng thesis: On a new signature that quantifies topological structure in biological and economic networks. Supervisors: Natasa Przulj, Marek Sergot.
- \item PhD thesis: Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy. Supervisors: Daniel Alexander, Sebastian Crutch, Neil Oxtoby
+ \item PhD thesis: Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy, arXiv preprint arXiv:2003.04805 (2020). Supervisors: Daniel Alexander, Sebastian Crutch, Neil Oxtoby
 \end{itemize}
 
 \section*{Talks}
 \begin{itemize}
  \item \emph{GAN Tutorial - From basics to current state-of-the-art, and towards key applications in medicine}, Harvard DBMI Clinical Informatics Lecture Series, Sept. 2020
- \item \emph{Machine learning for prediction and visualisation of brain diseases. Demonstration on Alzheimer's disease}, Boston Pydata meetup, Feb. 2020
+ \item \emph{Machine learning for prediction and visualisation of brain diseases. Demonstration on Alzheimer's disease}, Boston PyData meetup, Feb. 2020
  \item \emph{BrainPainter: A software for the visualisation of brain structures, biomarkers and associated pathological processes}, MICCAI MBIA workshop, Nov. 2019
  \item \emph{TADPOLE Challenge: Accurate Alzheimer's disease prediction through crowdsourced forecasting of future data}, MICCAI PRIME workshop, Nov. 2019
  \item \emph{Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy}, Athinoula A. Martinos Center, Cambridge MA, April 2019
@@ -411,14 +330,21 @@ Markets}\\
 \begin{itemize}
  \item Medical Image Computing and Computer Assisted Surgery (MICCAI), 2018, 2020
  \item Information Processing in Medical Imaging (IPMI), 2019
- \item NeurIPS 2020
+ \item NeurIPS, 2020
  \item NeurIPS Machine Learning for Health Workshop, 2019
  \item International Conference on Machine Learning (ICML), 2020
-  \item NeuroImage 2019
-  \item Conference on Health, Inference, and Learning (CHIL),2019
- \item Alzheimer's and Dementia, 2019,2020
+  \item NeuroImage, 2019
+  \item Conference on Health, Inference, and Learning (CHIL), 2019
+ \item Alzheimer's and Dementia, 2019, 2020
 
 \end{itemize}
+
+%\section*{Supervision}
+%\begin{itemize}
+%  \item Priscilla Chau, UCL MSc student, 2017 (co-supervised with Sebastian Crutch)
+%  \item Radu Cora, UCL Research Assistant, 2018 (co-supervised with Ivana Drobnjak)
+%  \item Vedu Malella, Intern, Northview High School, GA, 2020
+%\end{itemize}
 
 \section*{News Coverage}
 \begin{itemize}
