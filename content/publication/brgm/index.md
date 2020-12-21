@@ -17,7 +17,7 @@ authors = ['Razvan V Marinescu', 'Daniel Moyer', 'Polina Golland']
 publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
-publication = "CVPR 2021 (under review)"
+publication = "under review"
 publication_short = ""
 
 # Abstract.
