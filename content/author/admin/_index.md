@@ -92,7 +92,7 @@ user_groups = ["Researchers"]
 
 +++
 
-**Currently on the academic job market!** 
+**Currently on the academic job market!** See my research statement [here](files/RazvanMarinescu_ResearchStatement.pdf).
 
 I am a postdoctoral researcher in [Polina Golland's lab](https://people.csail.mit.edu/polina/) at MIT, working on machine learning algorithms for healthcare applications. I currently develop generative models for natural images, Chest X-Rays and brain images, which can be used as prior models for image reconstruction tasks, using bayesian posterior optimisation.
 
