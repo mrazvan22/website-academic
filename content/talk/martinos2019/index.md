@@ -3,7 +3,7 @@ title = "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Po
 date = 2019-04-19T10:53:43-04:00  # Schedule page publish date.
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ['Razvan Marinescu']
+authors = []
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

@@ -3,7 +3,7 @@ title = "TADPOLE Challenge: Accurate Alzheimer's disease prediction through crow
 date = 2019-09-10T18:38:06-04:00  # Schedule page publish date.
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Razvan V. Marinescu"]
+authors = []
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

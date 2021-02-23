@@ -3,7 +3,7 @@ title = "GAN Tutorial - From basics to current state-of-the-art, and towards key
 date = 2020-09-14T23:05:41-04:00  # Schedule page publish date.
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Razvan Marinescu"]
+authors = []
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

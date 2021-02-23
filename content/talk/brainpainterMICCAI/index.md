@@ -3,7 +3,7 @@ title = "BrainPainter: A software for the visualisation of brain structures, bio
 date = 2019-09-10T18:38:20-04:00  # Schedule page publish date.
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Razvan V. Marinescu"]
+authors = []
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
