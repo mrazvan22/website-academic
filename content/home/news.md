@@ -33,7 +33,6 @@ weight = 10
   
 +++
 
-* **Right now**: Applying for  tenure-track faculty positions.
 * **January 2021**: <span style="color:red">New pre-print:</span> [Bayesian Image Reconstruction using Deep Generative Models](https://arxiv.org/pdf/2012.04567.pdf). I used StyleGAN2 for reconstructing images corrupted by any corruption process. SOTA performance on super-resolution, at low input-resolution, and inpainting. Code and pre-trained models now available on the [project page](https://razvanmarinescu.github.io/brgm/).  
 * **September 2020**: Talk on GANs at the Harvard DBMS [Clinical Lecture Series](https://dbmi.hms.harvard.edu/events/clinical-informatics-lecture-series). See [video recording](https://harvard.zoom.us/rec/play/y2a08lvFeC7qcpVVhLJxW5dvIFS5URPfQ6idyzBEFHuYjZK4KAlFgEsAPObaZ2lD4Riz1O0LgxDRNZQ_.GJEejoYu4r1ZjqFN?continueMode=true&_x_zm_rtaid=TO6j5F0vREKikwYNUnSlKw.1600875537789.2fcad5ea3affd5ff6c38b6752da1ab72&_x_zm_rhtaid=950) and [slides](talk/gan-tutorial/pres.pdf).  
 * **July 2020**: [Talk at AAIC conference](https://www.youtube.com/watch?v=wYHS9OW-Dv8&ab_channel=RazvanMarinescu) on final results of the TADPOLE Challenge. 
