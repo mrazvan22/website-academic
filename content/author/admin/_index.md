@@ -105,3 +105,5 @@ You can see a complete list of publications on my [Google Scholar](https://schol
 
 My partner [Leilani Gilpin](http://people.csail.mit.edu/lgilpin/) is also a researcher in ML, and does fantastic work on ML Explainability using logical reasoning methods. See her publications [here](https://scholar.google.com/citations?user=UFT_ijYAAAAJ&hl=en).
 
+Academic job market research statement [here](files/RazvanMarinescu_ResearchStatement.pdf).
+
