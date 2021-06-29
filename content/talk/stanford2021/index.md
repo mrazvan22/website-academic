@@ -1,5 +1,5 @@
 +++
-title = "Medical Image Generation and Analysis using Bayesian Generative Models  "
+title = "Medical Image Generation and Analysis using Bayesian Generative Models (+Variational Inference in slides)  "
 date = 2021-02-22T22:51:34-05:00  # Schedule page publish date.
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -7,12 +7,12 @@ authors = []
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2021-03-24T22:51:34-05:00
+time_start = 2021-06-24T22:51:34-05:00
 #time_end = 2021-02-22T22:51:34-05:00
 all_day = true
 
 # Location of event.
-location = "University of California Santa Cruz, Computer Science Dept."
+location = "Kilian Pohl's research group, Stanford"
 
 # Name of event and optional event URL.
 event = ""

@@ -12,7 +12,7 @@ time_start = 2021-03-08T22:51:34-05:00
 all_day = true
 
 # Location of event.
-location = "University of British Columbia, ECE"
+location = "University of British Columbia, ECE Dept."
 
 # Name of event and optional event URL.
 event = ""
